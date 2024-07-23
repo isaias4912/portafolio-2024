@@ -38,6 +38,27 @@ formulario.addEventListener('submit', function(event) {
   mensajeConfirmacion.style.display = 'block';
 });
 
+// var nav = document.querySelector('nav');
+
+// window.addEventListener('scroll', function () {
+//   if (window.pageYOffset > 100) {
+//     nav.classList.add('bg-dark', 'shadow');
+//   } else {
+//     nav.classList.remove('bg-dark', 'shadow');
+//   }
+
+// var header=document.getElementById('header');
+
+// window.addEventListener('scroll',()=>{
+//   var scroll = window.scrollY
+//   if(scroll>10){
+//     header.style.backgroundColor='#121212'
+//   }else{
+//     header.style.backgroundColor= '#3bb78f'
+//   }
+// });
+
+
 
 
 
