@@ -229,10 +229,11 @@ ul{
    
 @media(max-width: 767px){
    .header .sidemenu{
-       width: 100%;
+       width: 60%;
    }
    .header .sidemenu nav a{
        font-size: 1rem;
+      
 
    }
 }
@@ -257,7 +258,13 @@ ul{
    }
 
 } 
+ 
+@media(max-width:580px){
+   body{
+      overflow-x: hidden;
+   }
 
+}
 
 .home{
   margin-top: 100px;
@@ -717,13 +724,13 @@ ul{
 
 
 }
-@media (max-width:1200px){
+/* @media (max-width:1200px){
   .sidemenu-toggler{
 
      display: none;
-  }
+  } */
   
-}
+
 /* footer2 */
 .footer-bis{
   
