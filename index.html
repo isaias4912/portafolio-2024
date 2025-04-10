@@ -589,12 +589,24 @@
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="contact-form">
-                <h1>contacto</h1>
-                <form action="" class="" id="formularioContacto">
-                    <input type="text" placeholder="nombre" name="name" class="contact-form-txt" required>
-                    <input type="email" name="email" placeholder="email" class="contact-form-txt" required>
-                    <textarea name="message" placeholder="mensaje" class="contact-form-txtarea" required></textarea>
-                    <input type="submit" placeholder="" class="contact-form-btn">
+                <h1>Contacto</h1>
+                <form  action="https://formspree.io/f/xvgkddon" method="POST"...  id="formularioContacto" >
+                    <div class="text-justify">
+                        <label for="name" class="text-left ">Nombre Completo <span>*</span></label>
+                        <input type="text" placeholder="nombre" name="name" class="contact-form-txt" required>
+                    </div>
+                  
+                     <div class="text-justify">
+                        <label for="email">Correo Electronico <span>*</span></label>
+                        <input type="email" name="email" placeholder="email" class="contact-form-txt" required>
+                     </div>
+                    
+                    <div class="text-justify"> 
+                        <label for="message">Mensaje</label>
+                        <textarea name="message" placeholder="mensaje" class="contact-form-txtarea" required></textarea>
+                    </div>
+                    
+                    <button type="submit" placeholder="" class="contact-form-btn">ENVIAR</button>
                 </form>
                 <div id="mensajeconfirmacion" style="display: none;">
                     <h3></h3>
