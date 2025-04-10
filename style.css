@@ -16,7 +16,9 @@ body{
    background: #212529;
    height: 2000px;
    overflow-x: hidden;
-
+   /* background-image: url(./imagenes/vialactea.jpg); */
+   /* background-repeat: no-repeat; */
+   
 }
 ol , ul {
    list-style: none;
@@ -27,6 +29,7 @@ img{
    height: auto;
 
 }
+
 
 a:hover{
    text-decoration: none;
@@ -236,6 +239,16 @@ ul{
       
 
    }
+   .img-fluid{
+      /* flex-direction: column; */
+      color: #0bab64;
+      /* align-items: center; */
+      /* justify-content: center; */
+      width: 350px;
+      
+       }
+   
+
 }
 
 @media(min-width: 768px)and(max-width: 991px){
@@ -724,12 +737,13 @@ ul{
 
 
 }
-/* @media (max-width:1200px){
+@media (max-width:1200px){
   .sidemenu-toggler{
 
      display: none;
-  } */
+  }
   
+}
 /* footer2 */
 .footer-bis{
   
