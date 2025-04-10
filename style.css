@@ -85,6 +85,8 @@ ul {
 .header .logo a,
 .header .logo a img {
   display: block;
+  margin: 70px;
+  margin-top: -10px;
 }
 
 .header .logo img {
@@ -123,7 +125,8 @@ ul {
 .header .sidemenu-toggler > span {
   display: block;
   background-color: white;
-  height: 2px;
+  height: 4px;
+
 }
 
 .header .sidemenu-toggler > span:nth-child(2) {
@@ -333,7 +336,7 @@ ul {
 .hero-img {
   margin-left: 0;
   margin-top: -40px;
-  width: 80%;
+  width: 75%;
 }
 
 .hero-img img {
