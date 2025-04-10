@@ -404,6 +404,8 @@ ul {
   padding: 14px 20px;
   border: none;
   border-radius: 50px;
+  width: 190px;
+  font-size: 17px;
 }
 
 .mh-service .mh-service-item {
@@ -799,3 +801,7 @@ ul {
     justify-content: center;
   }
 }
+
+
+
+
