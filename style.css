@@ -26,7 +26,7 @@ ul {
 body {
   background: #212529;
   height: 2000px;
-  overflow-x: hidden;
+  overflow-x: hidden; /* Elimina el scroll horizontal */
   /* background-image: url(./imagenes/vialactea.jpg); */
   /* background-repeat: no-repeat; */
 }
@@ -63,10 +63,9 @@ ul {
 }
 
 .header .wrap {
-  width: 1140px;
-  max-width: 100%;
+  width: 100%; /* El header ocupa todo el ancho */
+  padding: 0 10px; /* Ajusta el relleno */
   margin: auto;
-  padding: 0 15px;
   display: flex;
   justify-content: space-between;
 }
@@ -290,6 +289,7 @@ ul {
 
 .home {
   margin-top: 100px;
+  padding: 0 10px; /* Ajusta el relleno */
 }
 
 .hero-text {
@@ -330,7 +330,7 @@ ul {
 }
 
 .hero-img {
-  margin-left: 140px;
+  margin-left: 0; /* Elimina el margen izquierdo */
   margin-top: -40px;
 }
 
@@ -373,10 +373,11 @@ ul {
 
 .about {
   font-family: 'Poppins,sans-serif';
+  padding: 0 10px; /* Ajusta el relleno */
 }
 
 .gap {
-  margin-left: 90px;
+  margin-left: 0; /* Elimina el margen izquierdo */
 }
 
 .tag ul li {
@@ -450,6 +451,7 @@ ul {
   font-weight: 400;
   margin-bottom: 60px;
   font-family: 'Poppins',sans-serif;
+  padding: 0 10px; /* Ajusta el relleno */
 }
 
 .mh-professional-skill h3 {
@@ -557,6 +559,7 @@ ul {
   margin-bottom: 60px;
   font-family: 'Poppins',sans-serif;
   color: white;
+  padding: 0 10px; /* Ajusta el relleno */
 }
 
 .mh-experience .mh-education-details .mh-education-item {
@@ -664,7 +667,7 @@ ul {
 
 /* contactos */
 .contact-in {
-  width: 80%;
+  width: 100%; /* El contacto ocupa todo el ancho */
   height: auto;
   margin: auto;
   display: flex;
@@ -682,7 +685,7 @@ ul {
 }
 
 .contact-map iframe {
-  width: 100%;
+  width: 100%; /* El mapa ocupa todo el ancho */
   height: 100%;
 }
 
