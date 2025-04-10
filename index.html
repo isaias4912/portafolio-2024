@@ -590,7 +590,7 @@
             </div>
             <div class="contact-form">
                 <h1>Contacto</h1>
-                <form  action="https://formspree.io/f/xvgkddon" method="POST"...  id="formularioContacto" >
+                <form  action="https://formspree.io/f/xvgkddon" method="POST" id="formularioContacto" >
                     <div class="text-justify">
                         <label for="name" class="text-left ">Nombre Completo <span>*</span></label>
                         <input type="text" placeholder="nombre" name="name" class="contact-form-txt" required>
@@ -607,11 +607,12 @@
                     </div>
                     
                     <button type="submit" placeholder="" class="contact-form-btn">ENVIAR</button>
+                    <div id="formMensaje" style="margin-top: 1rem;">
+                        <h3></h3>
+                       
+                    </div>
                 </form>
-                <div id="mensajeconfirmacion" style="display: none;">
-                    <h3></h3>
-                    <p>¡Su mensaje ha sido enviado con exito!</p>
-                </div>
+               
                 <div id="contacto"></div>
             </div>
 
