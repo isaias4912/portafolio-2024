@@ -765,6 +765,7 @@ ul {
   background: #202020;
   color: white;
   text-align: center;
+  height: 90px;
 }
 
 .img-web {
@@ -817,6 +818,10 @@ ul {
     display: none;
   }
 } */
+.footer-tres{
+ padding: 20px;;
+ 
+}
 
 
 
