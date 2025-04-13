@@ -47,7 +47,7 @@ a:hover {
 
 body {
   font-family: 'Oswald, sans-serif';
-  color: #26313c;
+  /* color: #26313c; */
   line-height: 1.5;
 }
 
@@ -167,11 +167,11 @@ ul {
 }
 
 .header .sidemenu .close {
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 50px;
   display: block;
   position: absolute;
-  right: 20px;
+  right: 24px;
   top: 24px;
 }
 
@@ -815,15 +815,149 @@ ul {
     
   }
 }
-/* @media (min-width: 1200px) {
-  .header .sidemenu-toggler {
-    display: none;
-  }
-} */
+
 .footer-tres{
  padding: 14px;;
  
 }
 
+/* boton oscuro claro */
 
+.switch{
+  width: 60px;
+  height: 30px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 100px;
+  border: #0bab64 solid 2px;
+  background-color:#333144 ;
+  margin-top: 20px;
+  
+}
+.switch i {
+  font-size: 1rem;
+  color: #fdc21c;
+  margin-right: 10px;
+  margin-left: -6px;
+ 
+}
+/*switch2-lateral*/
+.switch2{
+  width: 60px;
+  height: 30px;
+  padding: 0 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 100px;
+  border: #0bab64 solid 2px;
+  background-color:#333144 ;
+  margin-top: 20px;
+  
+}
+.switch2 i {
+  font-size: 1rem;
+  color: #fdc21c;
+  margin-right: 10px;
+  margin-left: -1px;
+ 
+}
+/*--_________------*/
 
+.menu-options li:last-child::before{
+  content: "";
+  position: absolute;
+  height: 26px;
+  width: 26px;
+  border-radius:50% ;
+  background-color: #f5f3f3;
+  border: solid thin #000;
+  left: 0;
+  right: unset;
+
+}
+
+.menu-options li:last-child.active::before{
+  right: 0;
+  left: unset;
+  border: solid thin #fff;
+}
+ .menu-options li:last-child.active i:first-child{
+  color: #fff;
+ }
+ .menu-options li:last-child.active{
+  background-color: chocolate;
+  border: solid 2px #fff;
+ }
+ /* cambios de estilo en modo claro */
+ body.active {
+  background: rgb(238, 244, 238);
+  color: black;
+ }
+body.active .header nav a {
+color: #212529;
+
+ }
+ 
+ body.active .home .hero-text{
+  color: #212529;
+ }
+ body.active .header .sticky {
+  background: rgb(238, 244, 238);;
+ }
+ body.active .about h2{
+  color: #212529;
+ }
+ body.active .about p{
+  color: #212529;
+ }
+
+ body.active .about .tag{
+  color: #212529;
+ }
+
+ body.active .mh-service h3{
+  color: #212529;
+ }
+
+ body.active .mh-service p{
+  color: #212529;
+ }
+
+ body.active .mh-skill h3{
+  color: #212529;
+ }
+
+ body.active .mh-skill div{
+  color: #212529;
+ }
+
+ body.active .mh-experience h3{
+  color: #212529;
+ }
+
+ body.active .mh-experience h4{
+  color: #212529;
+ }
+
+ body.active .mh-experience p{
+  color: #212529;
+ }
+
+ body.active .mh-experience span{
+  color: #212529;
+ }
+
+ body.active .work-responsibility i{
+  color: #212529;
+ }
+
+body.active .header .sidemenu-toggler > span {
+
+  background-color: #212529;
+  
+}
