@@ -9,3 +9,6 @@ color2.addEventListener('click', e=>{
 // solIcon.classList.toggle('d-none');
 // lunaIcon.classList.toggle('d-none');
 })
+
+
+

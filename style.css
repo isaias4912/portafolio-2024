@@ -962,7 +962,11 @@ body.active .header .sidemenu-toggler > span {
   
 }
 
+body.active .container p{
+  color: #212529;
+}
 
+/* seccion de flecha con animacion */
 
 .flecha {
   animation: deslizar 1s infinite alternate;
@@ -976,7 +980,6 @@ body.active .header .sidemenu-toggler > span {
     transform: translateY(10px); /* Posición final (desplazamiento 10 píxeles hacia abajo) */
   }
 }
-
 
 
  
