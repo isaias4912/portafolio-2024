@@ -961,3 +961,22 @@ body.active .header .sidemenu-toggler > span {
   background-color: #212529;
   
 }
+
+
+
+.flecha {
+  animation: deslizar 1s infinite alternate;
+}
+
+@keyframes deslizar {
+  0% {
+    transform: translateY(0); /* Posición inicial (sin desplazamiento vertical) */
+  }
+  100% {
+    transform: translateY(10px); /* Posición final (desplazamiento 10 píxeles hacia abajo) */
+  }
+}
+
+
+
+ 
