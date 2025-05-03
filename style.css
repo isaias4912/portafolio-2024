@@ -666,9 +666,7 @@ ul {
   font-size: 18px;
   color:#3bb78f;
 }
-body.active .mh-work-item span{
-  color:#3bb78f
- }
+
 
 .work-responsibility li .bi {
   font-size: 10px;
@@ -976,7 +974,9 @@ body.active .header .sidemenu-toggler > span {
 body.active .container p{
   color: #212529;
 }
-
+body.active .mh-work-item .unica{
+  color:#3bb78f
+ }
 /* seccion de flecha con animacion */
 
 .flecha {
