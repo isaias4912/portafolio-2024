@@ -12,3 +12,6 @@ color2.addEventListener('click', e=>{
 
 
 
+
+
+
